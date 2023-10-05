@@ -1,0 +1,13 @@
+:root {
+    --policy-color: #000000;
+    --background-color: #780606;
+}
+
+nav {
+    background-color: var(--background-color);
+    color: var(--policy-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
